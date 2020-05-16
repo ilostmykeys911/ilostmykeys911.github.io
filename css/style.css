@@ -57,7 +57,7 @@ html {
 }
 .arrow {
 	position: absolute;
-	bottom: 6%;
+	bottom: 8%;
   	border: solid rgba(255,255,255,.8);
   	border-width: 0 2px 2px 0;
   	display: inline-block;
