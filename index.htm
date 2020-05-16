@@ -11,11 +11,10 @@
 	<!-- 
 		font-family: 'Dancing Script', cursive;
 		font-family: 'Open Sans Condensed', sans-serif;
-		ee
 	-->
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -65,16 +64,16 @@
 			<h2 id="intro-title-fade">Michael Nails</h2>
 			<p id="intro-text-fade">Lorem ipsum dolor sit amet, consectetur.</p>
 			<i id="intro-scroll-down" class="arrow down"></i>
-
+			<span id="ia-scroll-point"></span>
+			
 		</section><!-- /introduction -->
-
 	</div><!-- /.container-fluid /#main-container -->
 
 	<div id="index-about">
 		<div class="container">	
 				<div id="index-about-text">
 					<h2>About us</h2>
-					<p id="iat-scroll-point">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem numquam obcaecati, facere neque sint vel nulla laborum accusantium aspernatur eos alias blanditiis sunt ex deleniti dolore veniam, placeat nihil voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique officia nulla ad soluta ipsam, aliquid quibusdam ea in voluptas reprehenderit eos inventore rerum quia itaque provident est incidunt ratione expedita.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem numquam obcaecati, facere neque sint vel nulla laborum accusantium aspernatur eos alias blanditiis sunt ex deleniti dolore veniam, placeat nihil voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique officia nulla ad soluta ipsam, aliquid quibusdam ea in voluptas reprehenderit eos inventore rerum quia itaque provident est incidunt ratione expedita.</p>
 					<span class="index-about-seperator">~</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo vitae voluptate unde fuga iure placeat consequuntur iste consequatur, quaerat velit sit nulla rerum, deserunt ipsa. Nihil iure voluptatibus explicabo nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veniam velit blanditiis facilis ea enim nihil architecto ab nobis unde, quisquam amet delectus voluptatem temporibus, quaerat, reiciendis omnis quae deserunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, libero ex veniam blanditiis sequi ducimus mollitia repellat rem omnis fugit maxime sit accusamus dolore quo quaerat culpa neque. Enim, hic.</p>
 					<p id="iam-container"><a href="#" id="index-about-more">Read more about us</a></p>
@@ -95,7 +94,7 @@
 		$('#intro-scroll-down').delay( 1300 ).show('fade', 1100)
 		$('#intro-scroll-down').click(function(){
 			$([document.documentElement, document.body]).animate({
-        		scrollTop: $('#iat-scroll-point').offset().top
+        		scrollTop: $('#ia-scroll-point').offset().top
     		}, 100);
 		});
 
