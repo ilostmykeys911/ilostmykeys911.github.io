@@ -9,7 +9,6 @@ html {
 #test2 {
     background-color: #ff9cd9;
 }
-/* lel  */
 #test3 {
     background-color: #d5baf5;
 }
@@ -155,7 +154,7 @@ html {
 
 #index-about {
 	background-color: #ffe0ec;
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -163,12 +162,7 @@ html {
 }
 @media (max-width: 992px) {
 	#index-about {
-		padding: 1.2rem;
-	}
-}
-@media (max-width: 620px) {
-	#index-about {
-		padding: 1rem;
+		padding: 10px;
 	}
 }
 @media (max-width: 520px) {
