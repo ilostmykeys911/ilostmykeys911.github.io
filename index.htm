@@ -72,7 +72,7 @@
 	<div id="index-about">
 		<div class="container">	
 				<div id="index-about-text">
-					<h2>About us</h2>
+					<h2 id="index-about-title">About us</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem numquam obcaecati, facere neque sint vel nulla laborum accusantium aspernatur eos alias blanditiis sunt ex deleniti dolore veniam, placeat nihil voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique officia nulla ad soluta ipsam, aliquid quibusdam ea in voluptas reprehenderit eos inventore rerum quia itaque provident est incidunt ratione expedita.</p>
 					<span class="index-about-seperator">~</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo vitae voluptate unde fuga iure placeat consequuntur iste consequatur, quaerat velit sit nulla rerum, deserunt ipsa. Nihil iure voluptatibus explicabo nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veniam velit blanditiis facilis ea enim nihil architecto ab nobis unde, quisquam amet delectus voluptatem temporibus, quaerat, reiciendis omnis quae deserunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, libero ex veniam blanditiis sequi ducimus mollitia repellat rem omnis fugit maxime sit accusamus dolore quo quaerat culpa neque. Enim, hic.</p>
@@ -94,7 +94,7 @@
 		$('#intro-scroll-down').delay( 1300 ).show('fade', 1100)
 		$('#intro-scroll-down').click(function(){
 			$([document.documentElement, document.body]).animate({
-        		scrollTop: $('#index-about').offset().top
+        		scrollTop: $('#index-about-title').offset().top
     		}, 100);
 		});
 
